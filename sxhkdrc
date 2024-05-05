@@ -1,0 +1,19 @@
+super + x
+		flameshot gui
+
+alt + b ; {f,c}
+        	{firefox,google-chrome-stable}
+
+#Volume Control
+XF86AudioLowerVolume
+        	pamixer -u && pamixer -d 5
+XF86AudioRaiseVolume
+        	pamixer -u && pamixer -i 5
+XF86AudioMute
+        	pamixer --toggle-mute
+alt + space
+	rofi -show drun -theme iconic -show-icons
+alt + v 
+      virt-manager
+#Print 
+#maim -u -i $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
