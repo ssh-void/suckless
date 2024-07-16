@@ -1,5 +1,4 @@
-mkdir Videos Images Downloads Documents Music .config
-mkdir -p Downloads/YouTube 
+mkdir Videos Images Downloads Documents Music 
 
 # update and upgrade 
 sudo xbps-install -S && sudo xbps-install -u xbps && sudo xbps-install -Syu
