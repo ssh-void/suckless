@@ -57,4 +57,3 @@ sudo sed -i 's/GRUB_TIMEOUT=5/GRUB_TIMEOUT=0/' /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 sudo xbps-remove -RoO
 sudo reboot
-
